@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>198</x>
+      <y>171</y>
+      <w>234</w>
+      <h>207</h>
+    </coordinates>
+    <panel_attributes>bg=gray
+fg=blue
+Julien
+--
+POURQUOI CE SITE ?
+
+Julien est un étudiant montepellierain de
+25 ansqui invite souvent des amis chez lui.
+Cependant, il n'aime vraiment pas cuisiner.
+Il cherche donc une solution efficace
+pour commander rapidement à manger.
+
+--
+OBJECTIFS
+
+- Trouver une façon simple et rapide de
+commander à manger.
+- ne pas sortir de chez soi</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>198</x>
+      <y>486</y>
+      <w>234</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>bg=gray
+fg=blue
+Juzette
+--
+POURQUOI CE SITE ?
+
+Juzette est mère de famille et prend une fois
+par mois des pizzas pour ses enfants.
+Jusqu'à présent, elle s'est contenté  de
+commander par téléphone mais, poussé par
+ses enfants, elle s'essaie à la commande par
+internet
+
+--
+OBJECTIFS
+
+- Pouvoir commander aussi simplement par
+internet que par téléphone
+- pouvoir visualiser sa commande en ligne</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>837</x>
+      <y>45</y>
+      <w>234</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>IMPACT MAPPING
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>711</x>
+      <y>315</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Julien
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>711</x>
+      <y>594</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Juzette
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>531</x>
+      <y>441</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Pouvoir passer des
+commandes en ligne
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>882</x>
+      <y>216</y>
+      <w>171</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Cherche un site simple
+pour commander une pizza</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>882</x>
+      <y>630</y>
+      <w>126</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Veut connaître
+l'état de sa commande</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>882</x>
+      <y>558</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Souhaiterai payer en
+ligne</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>882</x>
+      <y>297</y>
+      <w>171</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Préfère payer directement
+avec le livreur</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>882</x>
+      <y>378</y>
+      <w>198</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>S'il est trop loin d'une pizzeria,
+il aimerai pouvoir la retirer sur
+place (un ami pourra lui prendre
+en venant chez lui).</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1170</x>
+      <y>189</y>
+      <w>198</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>Le site proposera une géolocalisation,
+ou l'inscription de l'adresse. Ensuite
+Le client pourra commander sa pizza.
+La validation de la commande peut se
+faire sans avoir de compte.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1170</x>
+      <y>297</y>
+      <w>171</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Le site propose un choix de
+paiement direct, ou lors de
+la livraison.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1170</x>
+      <y>378</y>
+      <w>198</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Si l'adresse entré est trop loin de toute
+pizzeria, le client peut choisir de la
+retirer sur place (il peut aussi faire ce
+choix directement).</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1170</x>
+      <y>540</y>
+      <w>198</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Choix de paiement en ligne lors de
+la validation de la commande.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1170</x>
+      <y>639</y>
+      <w>198</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Page de renseignement sur l'état du
+produit en entrant le numéro de
+produit, ou en se connectant
+à son compte.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>621</x>
+      <y>315</y>
+      <w>108</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>612</x>
+      <y>477</y>
+      <w>117</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;140.0;10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>774</x>
+      <y>225</y>
+      <w>126</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>792</x>
+      <y>315</y>
+      <w>108</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>774</x>
+      <y>333</y>
+      <w>126</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;90.0;10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1044</x>
+      <y>315</y>
+      <w>144</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1044</x>
+      <y>234</y>
+      <w>144</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1071</x>
+      <y>405</y>
+      <w>117</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>999</x>
+      <y>567</y>
+      <w>189</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>999</x>
+      <y>648</y>
+      <w>189</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>783</x>
+      <y>567</y>
+      <w>117</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>783</x>
+      <y>612</y>
+      <w>117</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
